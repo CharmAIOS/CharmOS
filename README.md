@@ -26,5 +26,6 @@ Enables agents to communicate using a shared semantic schema, making it easy to 
 
 ---
 
+## Learn more
 - [System Architecture](https://www.notion.so/CharmOS-framework-design-20009131ecb5806d890df4725558113f?pvs=4)
 - [MVP Flow](https://www.notion.so/Demo-Workflow-Coverage-MVP-20009131ecb580ee8450f59fe05628ad?pvs=4)
