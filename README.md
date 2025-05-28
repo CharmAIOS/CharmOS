@@ -1,5 +1,4 @@
-
-Charm empowers developers and organizations to rapidly build the next generation of AI-native applications — as simple, intuitive, and scalable as creating websites or apps.
+Charm is a modular AI OS. With a single unified API and plugin-based architecture, developers can compose, deploy, and scale AI applications across models, tools, frameworks, and SaaS platforms.
 
 ---
 
@@ -29,3 +28,5 @@ Enables agents to communicate using a shared semantic schema, making it easy to 
 ## Learn more
 - [System Architecture](https://www.notion.so/CharmOS-framework-design-20009131ecb5806d890df4725558113f?pvs=4)
 - [MVP Flow](https://www.notion.so/Demo-Workflow-Coverage-MVP-20009131ecb580ee8450f59fe05628ad?pvs=4)
+  
+Come join the [Charm group]([https://www.notion.so/Demo-Workflow-Coverage-MVP-20009131ecb580ee8450f59fe05628ad?pvs=4](https://join.slack.com/t/charm-3776/shared_invite/zt-364cpprya-Ej~biqmPOCa7iK9n2kdeZA))to collaborate, discuss, and build together!
