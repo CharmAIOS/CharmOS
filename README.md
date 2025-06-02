@@ -1,28 +1,25 @@
-Charm is a modular AI OS. With a single unified API and plugin-based architecture, developers can compose, deploy, and scale AI applications across models, tools, frameworks, and SaaS platforms.
+Charm is an open-source modular AI operating system that enables developers to compose, deploy, and scale AI applications across models, tools, frameworks, and SaaS platforms — all through a single unified API and plugin-based architecture, without worrying about low-level execution orchestration or integration complexity.
 
 ---
 
-## Why Charm?
+## Key Feature Design
 
-Use Charm for:
-
-**Built-in Routing, Fallback & Execution.**
-Automatically selects the most suitable model and execution backend based on user-defined preferences. Built-in support for fallback strategies, token quota control, and execution state tracking ensures reliability at scale — no orchestration logic or infrastructure setup required.
+**Built-in Routing, Fallback & Management.**
+Automatically selects and adapts the most suitable model and execution backend based on defined preferences. With built-in fallback strategies, token quota controls, and compute resource management, it ensures reliability at scale — no orchestration logic or infrastructure setup required
 
 **Orchestration & Lifecycle Control.**
-Easily orchestrate multi-step AI workflows across multiple agents with built-in support for execution state tracking, error recovery, and seamless task handoffs. From task routing and planning to execution and final output, the entire process is fully observable — allowing you to build robust and traceable automation systems without managing coordination logic yourself.
+Easily orchestrate multi-step workflows across multiple agents with built-in support for execution state tracking, error recovery, and task handoffs. From task routing and planning to execution and final output, the entire process is fully observable — allowing you to build robust and traceable automation systems without managing coordination logic yourself.
 
 **Semantic Abstraction & Format Alignment.**
-Enables agents to communicate using a shared semantic schema, making it easy to pass structured outputs between agents and convert them into compatible formats for seamless integration with Saas platforms — all without manual transformation or custom logic.
+Seamless communication and collaboration across agents, tools, and platforms — powering cross-ecosystem workflows and SaaS integrations without manual parsing or format transformation.
 
-**Modular Integration with External Frameworks.**
+**Modular, Plugin-Based Architecture.**
 
-- **Protocol Compatibility.**  
-  Seamlessly integrate pipelines, agents, and output schemas from existing frameworks — Ensure compatibility across ecosystems, so you can onboard legacy workflows, third-party agents, or external runtimes into a unified execution flow.
+- **Protocol Compatibility & Cross-Ecosystem Interoperability.**  
+Seamlessly connect pipelines, logic, and output schemas from existing frameworks — no rewrites required, easily extend your current stack with Charm.
 
-- **Composable Runtime.**  
-  Easily plug in external tools, modules, or agent frameworks at any stage of the execution pipeline — Allows you to experiment, extend, and compose with the best of today’s open ecosystem without rewriting existing logic or workflows.
-
+- **Composable Runtime & Selective Integration.**  
+Flexibly plug external modules, tools, or agent frameworks into any stage of your workflow — allowing hybrid execution flows that combine Charm’s runtime with third-party capabilities.
 ---
 
 ## Learn more
