@@ -10,13 +10,10 @@ graph TD
   C --> D[Model Inference]
   D --> E[Output Normalizer]
   E --> F1[Semantic Blocks A\n(Native Flow)]
-
   L[LangChain Output] --> M[Framework Adapter]
   M --> F2[Semantic Blocks B\n(From External Framework)]
-
   F1 --> H[Semantic Handoff\nInject A ➝ Agent B]
   H --> F2
-
   F2 --> G[Market Format Adapter]
   G --> I[Multi-format Output\n(Notion / Markdown / JSON)]
   I --> J[Dispatch to App\n(Webhook / API)]
