@@ -16,7 +16,7 @@ graph TD
   M --> F2[Semantic Blocks B]
 
   %% Interop (Handoff)
-  F1 --> H[Semantic Handoff Inject A ➝ B]
+  F1 --> H[Semantic Handoff A ➝ B]
   H --> F2
 
   %% Output
