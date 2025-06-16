@@ -22,7 +22,7 @@ graph TD
   %% Output
   F2 --> G[Market Format Adapter]
   G --> I[Multi-format Output]
-  I --> J[Dispatch to App\nWebhook / API]
+  I --> J[Dispatch to App]
 ```
 
 | Module | Filename                     | Purpose                                                                 |
