@@ -4,6 +4,7 @@ Showcase how the CharmOS runtime completes a full task workflow from prompt to a
 ### Demoflow
 
 ```mermaid
+
 graph TD
   A[User Prompt / Task Config] --> B[Unified API Interface]
   B --> C[Routing Engine]
@@ -23,6 +24,7 @@ graph TD
   F2 --> G[Market Format Adapter]
   G --> I[Multi-format Output<br>(Notion / Markdown / JSON)]
   I --> J[Dispatch to App<br>Webhook / API]
+
 ```
 
 | Module | Filename                     | Purpose                                                                 |
