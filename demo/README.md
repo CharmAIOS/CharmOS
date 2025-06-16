@@ -4,27 +4,25 @@ Showcase how the CharmOS runtime completes a full task workflow from prompt to a
 ### Demoflow
 
 ```mermaid
-
 graph TD
   A[User Prompt / Task Config] --> B[Unified API Interface]
   B --> C[Routing Engine]
   C --> D[Model Inference]
   D --> E[Output Normalizer]
-  E --> F1[Semantic Blocks A<br>(Native Flow)]
+  E --> F1[Semantic Blocks A\n(Native Flow)]
 
   %% External framework output
   L[LangChain Output] --> M[Framework Adapter]
-  M --> F2[Semantic Blocks B<br>(From External Framework)]
+  M --> F2[Semantic Blocks B\n(From External Framework)]
 
   %% Interop (Handoff)
-  F1 --> H[Semantic Handoff<br>Inject A ➝ Agent B]
+  F1 --> H[Semantic Handoff\nInject A ➝ Agent B]
   H --> F2
 
   %% Output
   F2 --> G[Market Format Adapter]
-  G --> I[Multi-format Output<br>(Notion / Markdown / JSON)]
-  I --> J[Dispatch to App<br>Webhook / API]
-
+  G --> I[Multi-format Output\n(Notion / Markdown / JSON)]
+  I --> J[Dispatch to App\n(Webhook / API)]
 ```
 
 | Module | Filename                     | Purpose                                                                 |
