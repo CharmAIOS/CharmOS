@@ -59,13 +59,16 @@ graph TD
 - Integrate upstream AI workflow or output
 - Normalize inputs into an internal semantic schema
 - Maintain a unified pipeline across all task sources
+
 **Semantic Interoperability**
 - Unify diverse outputs into a shared internal semantic schema
 - Enable collaboration and task handoff across the system
+
 **Output Versatility**
 - Convert structured results into multiple output formats
 - Deliver output to external applications via API or webhook
 - Convert once and enable reuse across diverse applications
+
 **Modular System Architecture**
 - Decompose the entire workflow into independent and composable modules
 - Accountability and transparency during task execution
