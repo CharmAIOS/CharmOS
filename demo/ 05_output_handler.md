@@ -9,7 +9,7 @@ Converts internal semantic blocks into external-facing formats and simulates dis
   - Markdown list  
   - JSON payload for API  
   - Simulated Notion block structure  
-- Simulated dispatch behavior will be demonstrated in Module 06.
+- Simulate dispatch by printing the formatted result or webhook payload to console.
 - No real API call is made; the focus is to demonstrate format transformation and how the output could be delivered.
 
 ### MVP Relevance
