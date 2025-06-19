@@ -4,13 +4,13 @@
 Converts internal semantic blocks into external-facing formats and simulates dispatch to designated platforms.
 
 ### Implementation reference
-- Use mock `semantic_blocks` from previous steps.
-- Convert them into simple mock outputs:
+- Use mock `semantic_blocks` from previous modules as input.
+- Convert them into multiple target formats:
   - Markdown list  
   - JSON payload for API  
   - Simulated Notion block structure  
-- Simulate dispatch by printing the formatted result or webhook payload to console.
-- No actual API integration is required; goal is to demonstrate format transformation and mock delivery.
+- Simulated dispatch behavior will be demonstrated in Module 06.
+- No real API call is made; the focus is to demonstrate format transformation and how the output could be delivered.
 
 ### MVP Relevance
 - Define format adapters for common destinations (e.g., Notion, Slack, Markdown).
