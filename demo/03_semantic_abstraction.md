@@ -13,4 +13,4 @@ Transforms raw model output into structured semantic blocks, enabling downstream
 Establishes the foundation for scalable semantic processing in the MVP:
 - Define the internal schema structure (`semantic_blocks`)
 - Implement a basic normalization interface (`normalizeToSemanticBlocks()`)
-- Support selected semantic block types (e.g., summary, action_item, slide_outline) 這樣？
+- Support selected semantic block types (e.g., summary, action_item, slide_outline)
