@@ -5,9 +5,9 @@ Transforms raw model output into structured semantic blocks, enabling downstream
 
 ### Implementation reference
 - Take a hardcoded mock model output, such as a summary or task list.
-- Pass it through a simulated normalization function.
-- Output the resulting `semantic_blocks` (in JSON or readable pseudo-structure) to the console or markdown.
-- `semantic_block` should include metadata like `type`, `content`, `confidence`, and `source`.
+- Pass it through a simulated normalization function to produce structured semantic blocks.
+- Each `semantic_block` should include metadata like `type`, `content`, `confidence`, and `source`.
+- This module focuses on illustrating the transformation logic, not the display output.
 
 ### MVP Relevance
 Establishes the foundation for scalable semantic processing in the MVP:
