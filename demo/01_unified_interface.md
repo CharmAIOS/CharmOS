@@ -8,7 +8,7 @@ All CharmOS tasks begin from a unified interface that accepts standardized input
   - A CLI command
   - A simulated API endpoint
 - Unified task config includes fields like `prompt`, `preferred_model`, `format`, and `latency_mode`.
-- Print the received payload to console or display it in markdown.
+- Capture and structure the received task configuration payload for further processing.
 - No routing or execution is triggered; this module only confirms and echoes the input.
 
 > Note: In this demo, downstream modules are not invoked. Each module simulates its own input for demonstration purposes.
