@@ -10,5 +10,6 @@ All CharmOS tasks begin from a unified interface that accepts standardized input
 - Unified task config includes fields like `prompt`, `preferred_model`, `format`, and `latency_mode`.
 - Capture and structure the received task configuration payload for further processing.
 - No routing or execution is triggered; this module only confirms and echoes the input.
+- Display the received task config in console or markdown.
 
 > Note: In this demo, downstream modules are not invoked. Each module simulates its own input for demonstration purposes.
