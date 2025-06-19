@@ -31,7 +31,7 @@ graph TD
 | 02     | `02_routing_and_model_selection.md` | Demonstrate model selection logic and produce a simulated model output. |
 | 03     | `03_semantic_abstraction.md` | Transform raw model output into structured semantic blocks (internal format). |
 | 04     | `04_interoperability.md`     | Showcase semantic compatibility and handoff across native/external agents. |
-| 05     | `05_output_adapter.md`       | Convert structured blocks into output formats. |
+| 05     | `05_output_handler.md`       | Format semantic blocks and deliver them to external platforms. |
 | 06     | `06_execution_trace.md`      | Trace full execution path step-by-step across modular functions.        |
 
 ### Modules Covered
