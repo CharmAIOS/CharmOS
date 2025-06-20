@@ -13,7 +13,6 @@ Developer / Framework / Plugin
 ├── External Output Adapter
 │
 ├── Smart Orchestrator Layer
-│   ├── Unified API Access
 │   ├── Routing Criteria Parser
 │   │   ├── Request Analyzer
 │   │   └── Policy Matcher
@@ -91,8 +90,6 @@ Analyzes and converts outputs from external applications or frameworks into comp
 
 ### Smart Orchestrator Layer
 Handles all internal coordination required to interpret requests, plan execution, and manage task flows across the system.
-#### Unified API Access
-Parses incoming requests and transforms them into internal task objects to initiate routing and execution.
 #### Routing Criteria Parser
 Parses incoming tasks and applies routing logic based on user-defined strategies, system defaults and real-time context.
 - **Request Analyzer**: Extracts routing-relevant parameters from task payloads and user context.
