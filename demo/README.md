@@ -38,7 +38,6 @@ graph TD
 
 - **Developer SDK & Interface** (mocked)
 - **External Output Adapter** (mocked)
-- **Unified API Access**(hardcoded)
 - **Routing Criteria Parser** (hardcoded)
 - **Routing Engine** (hardcoded)
 - **Inference Execution Layer** (hardcoded)
@@ -64,7 +63,7 @@ graph TD
 - Unify diverse outputs into a shared internal semantic schema
 - Enable collaboration and task handoff across the system
 
-**Output Versatility**
+**Output handling capability**
 - Convert structured results into multiple output formats
 - Deliver output to external applications via API or webhook
 - Convert once and enable reuse across diverse applications
