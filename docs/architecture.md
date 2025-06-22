@@ -1,5 +1,7 @@
 # Architecture Overview
 
+> Note: This is an early-stage architectural sketch — contributions, comments, and refinements are warmly welcomed.
+
 ### System Modules Overview
 
 ```
