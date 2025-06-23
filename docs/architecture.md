@@ -75,7 +75,7 @@ Developer / Framework / Plugin
 └── External IPC & API Adapter Layer
 │   ├── Bi-directional API Adapter
 │   │   ├── API Generator
-│   │   ├── SaaS Adapter
+│   │   ├── Platform Adapter
 │   │   └── Subscription Manager
 │   ├── Runtime Interop Controller
 │   │   ├── Execution Suspension & Resume Handler
@@ -117,8 +117,8 @@ Executes model inference tasks by selecting optimal runtime environments and man
 #### Runtime Executor  
 Initiates and monitors inference tasks based on routing outputs, invoking the designated runtime and relaying execution status to the orchestrator.
 #### Inference Management
-Converts routing outputs into concrete execution configurations.
-- **Environment Binding**: Establishes and configures the appropriate runtime environment based on routing directives.
+Handles strategic binding between tasks and compute resources. Determines where, what, and how to execute inference based on routing directives.
+- **Environment Binding**: Selects the most suitable runtime environment (local, cloud, browser) based on task needs.
 - **Service Invocation Adapter**: Maps execution logic to the specific AI provider’s interface while preserving a unified invocation contract.
 - **Model Selector**: Identifies and selects the optimal deployed model version or variant within the target environment to meet task requirements.
 #### Inference Environment Adapter  
@@ -171,8 +171,8 @@ Enables dynamic API exposure and real-time interoperability across AI applicatio
 #### Bi-directional API Adapter
 Generates and manages standardized interfaces for applications interoperability.
 - **API Generator**: Automatically generates OpenAPI-compatible endpoints for applications or workflows.
-- **SaaS Adapter**: Translates requests and responses to align with external SaaS API schemas.
-- **Subscription Manager**: Orchestrates push/pull data exchange mechanisms between internal applications and external SaaS tools.
+- **Platform Adapter**: Translates requests and responses to align with platform-specific API schemas.
+- **Subscription Manager**: Orchestrates push/pull data exchange mechanisms between internal applications and external tools.
 #### Runtime Interop Controller
 Coordinates execution handoff and event-driven control across tasks and modules.
 - **Execution Suspension & Resume Handler**: Supports runtime hooks, resumable task IDs, and context restoration across applications.
