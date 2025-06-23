@@ -26,7 +26,6 @@ Developer / Framework / Plugin
 │   │   ├── Workflow Planner
 │   │   ├── Task Graph Builder
 │   │   └── Execution Trigger & Sync
-│   ├── AI Service Adapter
 │   └── Task Lifecycle Orchestrator
 │       ├── Task State Manager
 │       ├── Task Context Manager
@@ -106,8 +105,6 @@ Constructs and coordinates executable task flows based on selected routing paths
 - **Workflow Planner**: Defines the logical structure of each task and determines the optimal execution sequence for every stage.
 - **Task Graph Builder**: Translates the plan into a structured dependency graph, supporting parallelism and conditional branching as needed.
 - **Execution Trigger & Sync**: Initiates task nodes according to the graph logic and manages synchronization across sequential and concurrent steps.
-#### AI Service Adapter
-Standardizes model invocation logic across multiple AI providers.
 #### Task Lifecycle Orchestrator 
 Oversees task execution states, ensures context continuity, and manages fault tolerance across execution cycles.
 - **Task State Manager**: Monitors and transitions task states throughout the lifecycle.
