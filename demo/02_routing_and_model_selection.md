@@ -5,7 +5,7 @@ Simulates how CharmOS selects an appropriate model and execution environment bas
 
 ### Implementation reference
 - Use a mocked `Routing Engine` that accepts inputs such as `latency_mode`, `preferred_model`, or `privacy_level`.
-- Simulate a decision-making process and return a hardcoded routing result
+- Simulate a decision-making process and return a hardcoded routing result.
 - No actual model inference is triggered; this module only illustrates how routing logic interprets input parameters and selects a model path.
 - Display the routing result in console or markdown.
 
