@@ -24,6 +24,6 @@ Flexibly plug external modules, tools, or agent frameworks into any stage of you
 
 ## Learn more
 - [Architecture](https://github.com/CharmAIOS/CharmOS/blob/main/docs/architecture.md)
-- [MVP](https://www.notion.so/Demo-Workflow-Coverage-MVP-20009131ecb580ee8450f59fe05628ad?pvs=4)
+- [MVP](https://github.com/CharmAIOS/CharmOS/blob/main/mvp/README.md)
   
 Come join the [Charm group](https://join.slack.com/t/charmos/shared_invite/zt-364cpprya-Ej~biqmPOCa7iK9n2kdeZA) to collaborate, discuss, and build together!
