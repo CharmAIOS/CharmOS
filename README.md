@@ -26,4 +26,4 @@ Flexibly plug external modules, tools, or agent frameworks into any stage of you
 - [Architecture](https://github.com/CharmAIOS/CharmOS/blob/main/docs/architecture.md)
 - [MVP](https://github.com/CharmAIOS/CharmOS/blob/main/mvp/README.md)
   
-Come join the [Charm group](https://join.slack.com/t/charmos/shared_invite/zt-364cpprya-Ej~biqmPOCa7iK9n2kdeZA) to collaborate, discuss, and build together!
+Come join the [Charm group](https://discord.gg/KtYk7eqV2f) to collaborate, discuss, and build together!
