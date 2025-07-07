@@ -1,4 +1,4 @@
-Charm is an open-source modular AI operating system that enables developers to compose, deploy, and scale AI applications across models, tools, frameworks, and SaaS platforms — all through a single unified API and plugin-based architecture, without worrying about low-level execution orchestration or integration complexity.
+Charm is an open-source modular AI operating system that enables developers to compose, deploy, and scale AI applications across models, tools, frameworks, and SaaS platforms — all through a single unified API and plugin-based architecture, without worrying about low-level execution or integration complexity.
 
 ---
 
@@ -25,5 +25,3 @@ Flexibly plug external modules, tools, or agent frameworks into any stage of you
 ## Learn more
 - [Architecture](https://github.com/CharmAIOS/CharmOS/blob/main/docs/architecture.md)
 - [MVP](https://github.com/CharmAIOS/CharmOS/blob/main/mvp/README.md)
-  
-Come join the [Charm group](https://discord.gg/GxYU5qAUZD) to collaborate, discuss, and build together!
