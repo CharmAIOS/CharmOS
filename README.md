@@ -45,10 +45,10 @@ Accepts and normalizes inputs from diverse external sources—agent frameworks (
 flowchart LR
     UI[Unified Interface]
 
-    PL1[Next.js/CLI Bridge]
-    PL2[Flowise Exporter, LangGraph Translator]
-    PL3[Notion/Zapier SDK]
-    PL4[REST/GraphQL Plugin]
+    PL1[Flow Compiler]
+    PL2[SaaS SDK Wrapper / API Adapter]
+    PL3[UI / CLI Bridge]
+    PL4[Prompt Interpreter]
 
     PL1 --> UI
     PL2 --> UI
