@@ -34,7 +34,7 @@ graph LR
         EXE --> IEB[Integration &<br/>Event Bridge]
     end
 
-    IEB <--> EXT[External SaaS / Applications]
+    IEB -> 
 ```
 Modular & Plugin-Based Design
 
