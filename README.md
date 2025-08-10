@@ -32,9 +32,7 @@ graph LR
         SM[Semantic Middleware &<br/>Format Adapter] --> ORCH[Task Lifecycle<br/>Orchestration & Planning]
         ORCH --> EXE[Execution &<br/>Model Routing]
         EXE --> IEB[Integration &<br/>Event Bridge]
-    end
-
-    IEB -> 
+end
 ```
 Modular & Plugin-Based Design
 
