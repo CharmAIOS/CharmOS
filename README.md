@@ -68,10 +68,10 @@ flowchart LR
     SM --> ORCH --> EXE --> IEB
 
     %% Plugin injection points
-    PL_SM[LangGraph Parser, MCP Adapter] --> SM
-    PL_ORCH[Flowise Compiler, LangGraph Planner] --> ORCH
-    PL_EXE[OpenRouter Adapter, GPU Runtime] --> EXE
-    PL_IEB[Notion SDK, Zapier Bridge] --> IEB
+    PL_SM[Semantic Parsers, Format Adapters] --> SM
+    PL_ORCH[Routing Policies, Task Planner] --> ORCH
+    PL_EXE[Model Selector, Compute Strategy] --> EXE
+    PL_IEB[SaaS Connector, Output Renderers] --> IEB
 ```
 
 3. Cross-Platform Integration:
