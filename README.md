@@ -34,8 +34,6 @@ graph LR
         EXE --> IEB[Integration &<br/>Event Bridge]
 end
 ```
-Modular & Plugin-Based Design
-
 1. Unified Ingestion:
 Accepts and normalizes inputs from diverse external sources—agent frameworks (e.g., LangChain, AG2), automation platforms (e.g., Zapier, Notion), and protocol-based triggers (e.g., MCP)—through pluggable adapters.
 
@@ -74,36 +72,30 @@ flowchart LR
     PL_IEB[SaaS Connector, Output Renderers] --> IEB
 ```
 
-3. Cross-Platform Integration:
-A decoupled, modular design enables deep interoperability with external tools and systems, allowing developers to orchestrate workflows that span internal and third-party services. This supports shared execution, bidirectional state synchronization, and seamless task handoffs.
+3. Plugin-based Orchestration:
+All tasks flow through a unified orchestration pipeline. The system dynamically invokes external plugins—such as planning modules, inference providers, or application integrations—delivering full-stack, cross-platform workflows.
 
 ```mermaid
 flowchart LR
-    subgraph External Systems
-        Z1[Notion Trigger]
-        Z2[Zapier Event]
-    end
+
+        Z1[Task Trigger]
 
     subgraph Charm Core
         A1[Task Orchestrator]
         A2[Planning Engine]
         A3[Execution Engine]
-        A4[Event Dispatcher]
+        A4[Output Dispatcher]
     end
 
-    subgraph Third-Party Services
-        B1[LangChain Agent]
-        B2[OpenRouter Model]
-        B3[Slack API Call]
+    subgraph Plugins
+        P1[LangChain Planner]
+        P2[OpenRouter Compute]
+        P3[Slack Webhook]
     end
 
     Z1 --> A1
-    Z2 --> A1
     A1 --> A2
-    A2 --> B1
-    B1 --> A3
-    A3 <--> B2
+    A2 --> P1 --> A3
+    A3 --> P2
     A3 --> A4
-    A4 --> B3
-```
-[Architecture Breakdown](https://github.com/CharmAIOS/CharmOS/blob/main/docs/architecture.md)
+    A4 --> P3
