@@ -30,3 +30,4 @@ flowchart LR
 
     %% Extra arrow
     FrameworkB <--> ExternalApp
+```
