@@ -40,7 +40,7 @@ flowchart LR
 
 ## What Developers Get
 
-#### write once, run anywhere
+#### Write once, Run anywhere
 - Features & Capabilities
 - Ecosystem Compatibility
 - Resources & Community
@@ -69,7 +69,7 @@ We do NOT handle:
 
 ## Roadmap
 
-Middleware
+Middleware V2
 - RBAC Granularity + SSO/SCIM
 - Observability & Audit
 - Schema & Contract Registry
@@ -79,10 +79,9 @@ Runtime Environment
 - Routing Decisions
 - Execution Scheduler
 - Compute Strategy
-- Fine-grained Token/Quota Management
+- Resource Management
 
 Full OS
 - Developer SDK / GUI
 - Native Agent Registry
 - Plugins / Marketplace
-- Compliance, Audit, Observability
