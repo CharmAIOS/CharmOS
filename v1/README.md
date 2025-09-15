@@ -1,23 +1,66 @@
-Charm is an Agent Interop Middleware
+## Agent Interop Middleware
 
 ## What did we solve?
 - Cross-agent ecosystem bridge
 - Agent-to-world communication
 
 ## What Developers Get
+
 #### write once, run anywhere
 - Features & Capabilities
 - Ecosystem Compatibility
 - Resources & Community
-#### Resumable conversations with the world, all in one flow
+#### Interactions with Apps, all throughout a single flow
 - Resumable
 - Bidirectional
 - State-aware
-- Governed & Safe
+- Governed & Secure
 - Cross-framework consistent
-## What Eco Get
-Example Flow
-Roadmap
-Scope
-Core Concept
-How it work
+
+## Example Flow
+```mermaid
+flowchart LR
+    N[Notion] -- page.created --> C[Charm Bridge]
+    C --> L[LangGraph]
+    L -- draft_v0 --> C
+    C --> G[AG2]
+    G -- draft_v1/diff --> C
+    C --> H[Slack]
+    H -- approve/changes --> C
+    L -- final_text --> N
+```
+## Scope
+
+We handle:
+- Format conversion
+- Semantic mapping
+- Event bridging
+- Boundary governance
+- Credential custody
+
+We do NOT handle:
+- Task orchestration
+- Routing decisions
+- Workflow scheduling
+- Execution environments
+- Native Agent SDK
+
+## Roadmap
+
+Middleware
+- RBAC Granularity + SSO/SCIM
+- Observability & Audit
+- Schema & Contract Registry
+- Plugin / Connector SDK
+
+Runtime Environment
+- Routing Decisions
+- Execution Scheduler
+- Compute Strategy
+- Fine-grained Token/Quota Management
+
+Full OS
+- Developer SDK / GUI
+- Native Agent Registry
+- Plugins / Marketplace
+- Compliance, Audit, Observability
