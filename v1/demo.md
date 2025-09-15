@@ -50,3 +50,6 @@ After AG2 outputs draft_v1
 → AG2 rewrites 
 → sends back to Chat UI for review (multi-turn) 
 → final result synced to Notion
+
+Note:
+- Simulate a failure and handle it with detection, retry, and backoff mechanisms.
