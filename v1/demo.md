@@ -9,25 +9,4 @@ flowchart LR
     H -- approve/changes --> C
     L -- final_text --> N
 ```
-```mermaid
-stateDiagram-v2
-    [*] --> Pending
-    Pending --> Running : start()
-    Running --> Waiting : external event required
-    Waiting --> Running : event received
-    Running --> Paused : human approval needed
-    Paused --> Running : resume()
-    Running --> Failed : error
-    Failed --> Retried : retry/backoff
-    Retried --> Running
-    Running --> Done : success
-    Done --> [*]
-
-    note right of Running
-        Context Memory (semantic layer)
-        - Conversation history
-        - User intent
-        - Sub-task content
-        - Knowledge / history
-    end note
-```
+[Spec](https://www.notion.so/Demo_v1-26f09131ecb580499fcfca4a17068c58?source=copy_link)
