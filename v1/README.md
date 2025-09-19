@@ -35,20 +35,19 @@ flowchart LR
 ```
 
 ## What did we solve?
-- Cross-agent ecosystem bridge
+- Cross-agent system bridge
 - Agent-to-world communication
 
 ## What Developers Get
 
-#### Write once, Run anywhere
+#### Write once, Run anywhere, Enhance your agent’s:
 - Features & Capabilities
 - Ecosystem Compatibility
 - Resources & Community
-#### Interactions with Apps, all throughout a single flow
+#### Interactions with apps throughout a single flow that are:
 - Resumable
 - Bidirectional
 - State-aware
-- Governed & Secure
 - Cross-framework consistent
 
 ## Scope
@@ -66,22 +65,3 @@ We do NOT handle:
 - Workflow scheduling
 - Execution environments
 - Native Agent SDK
-
-## Roadmap
-
-Middleware V2
-- RBAC Granularity + SSO/SCIM
-- Observability & Audit
-- Schema & Contract Registry
-- Plugin / Connector SDK
-
-Runtime Environment
-- Routing Decisions
-- Execution Scheduler
-- Compute Strategy
-- Resource Management
-
-Full OS
-- Developer SDK / GUI
-- Native Agent Registry
-- Plugins / Marketplace
