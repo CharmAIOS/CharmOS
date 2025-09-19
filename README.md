@@ -20,12 +20,9 @@ Supporting multi-turn and long-horizon agent workflows through persistent, bidir
 
 ```mermaid
 graph LR
-        A1[Natural Language] --> UI[Unified Interface]
-        A2[Structured Flow] --> UI
-        A3[External Trigger] --> UI
-        A4[UI or CLI Event] --> UI
+    UI[Unified Interface]
 
-    UI --> SM
+    UI[Unified Interface] --> SM
 
     subgraph Charm Core
         SM[Semantic Middleware &<br/>Format Adapter] --> ORCH[Task Lifecycle<br/>Orchestration & Planning]
