@@ -1,6 +1,6 @@
 # Welcome to Charm
 
-Charm is an open-source modular AI operating system that enables developers to compose, deploy, and scale AI applications across models, tools, frameworks, and platforms — all through a single unified API and plugin-based architecture.
+Charm is an open-source, modular AI operating system designed to be neutral that enables developers to compose, deploy, and scale AI applications across models, tools, frameworks, and platforms — all through a single unified API and plugin-based architecture.
 
 ## Core feature modules
 
@@ -14,7 +14,7 @@ Orchestrates multi-agent workflows with full lifecycle control, inter-agent hand
 Standardizes diverse inputs into structured semantics & formats.
 
 **Integration Bridge**:
-Supporting multi-turn and long-horizon agent workflows through persistent, bidirectional communication with external platforms via APIs, webhooks, and event polling.
+Supporting multi-turn and long-horizon agent workflows through persistent, bidirectional communication with external platforms.
 
 ## Architecture
 
@@ -48,7 +48,7 @@ flowchart LR
     PL4 --> UI
 ```
 Pluggable Orchestration & Execution:
-All tasks flow through a unified orchestration pipeline, where major subsystems expose plugin interfaces that allow you to inject or swap components (e.g., model routers, workflow planners, or SDK bridges) to compose workflows tailored to custom runtime requirements
+All tasks flow through a unified orchestration pipeline, where major subsystems expose plugin interfaces that allow you to inject or swap components (e.g., model routers, workflow planners, or SDK bridges) to compose workflows tailored to custom requirements
 
 ```mermaid
 flowchart LR
