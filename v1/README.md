@@ -23,7 +23,7 @@ flowchart LR
     end
 
     %% Flow
-    A1 -->|Definition Conversion| C1
+    A1 -->|Parse| C1
     C1 --> C2 --> C3
     C2 --> C4
     C4 --> C5
