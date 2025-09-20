@@ -35,7 +35,7 @@ flowchart LR
 ```
 
 ## What did we solve?
-- Cross-agent system bridge
+- Cross-agent system bridging
 - Agent-to-world communication
 
 ## What Developers Get
@@ -49,19 +49,3 @@ flowchart LR
 - Bidirectional
 - State-aware
 - Cross-framework consistent
-
-## Scope
-
-We handle:
-- Format conversion
-- Semantic mapping
-- Event bridging
-- Boundary governance
-- Credential custody
-
-We do NOT handle:
-- Task orchestration
-- Routing decisions
-- Workflow scheduling
-- Execution environments
-- Native Agent SDK
