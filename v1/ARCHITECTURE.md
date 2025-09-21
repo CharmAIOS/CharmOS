@@ -17,7 +17,7 @@
 ### Stateful Event Bridge
 - Outbound: Streams agent outputs to external apps/frameworks, while preserving task identity
 - Inbound: Subscribes to external responses or triggers and attaches them to the correct task state
-- Lifecycle-Aware: Handle pause/wait/resume, retry/backoff, and state reactivation
+- Lifecycle-Aware: Handles pause/wait/resume, retry/backoff, and state reactivation
 
 ### Edge Governance
 - Apply multi-tier governance mechanisms at the ingress/egress layer
