@@ -1,6 +1,6 @@
 ## Agent Migration
 
-Upload/Reference your agent (role card / node graph / profile)
+Reference your agent (role card / node graph / profile)
 ```.yaml
 # samples/langgraph_subgraph.yaml
 persona:
