@@ -2,18 +2,30 @@
 
 Reference your agent (role card / node graph / profile)
 ```.yaml
-# samples/langgraph_subgraph.yaml
-persona:
-  name: "ResearchAgent"
-goals:
-  - "Summarize the current AI industry"
-tools:
-  - notion.read_page
-  - slack.send_message
+# File path
+source_type: "langgraph"       
+definition_ref: "./samples/langgraph_subgraph.yaml" 
+# URL
+source_type: "langgraph"
+definition_ref: "https://example.com/agent/langgraph_subgraph.yaml"
+```
+Inline Example
+```.yaml
+source_type: "langgraph"
+definition_inline:
+  persona:
+    name: "ResearchAgent"
+  goals:
+    - "Summarize the current AI industry"
+  tools:
+    - notion.read_page
+    - slack.send_message
 ```
 Translated into UAC format
 ```.ts
-const uac = await charm.uac.transform("samples/langgraph_subgraph.yaml")
+const uac = await charm.uac.transform({
+  source_type: "langgraph",
+  definition_ref: "./samples/langgraph_subgraph.yaml" 
 ```
 Select the output framework and perform mapping
 ```.ts
