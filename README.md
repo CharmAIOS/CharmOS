@@ -8,7 +8,7 @@ Charm is an open-source, modular AI operating system designed to be neutral that
 Intelligently selects and adapts the optimal model and compute backend based on defined needs and policies, with built-in support for resource governance.
 
 **Multi-Agent Management**:
-Orchestrates multi-agent workflows with full lifecycle control, inter-agent handoff, and complete execution traceability.
+Orchestrates multi-agent workflows with full lifecycle control and inter-agent handoff.
 
 **Semantic & Format adaptation**:
 Standardizes diverse inputs into structured semantics & formats.
