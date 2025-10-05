@@ -1,4 +1,4 @@
-## Charm Middleware (v0.1-0.2)
+## Charm Middleware
 ```mermaid
 flowchart LR
     subgraph FrameworkA["Source Framework"]
