@@ -37,10 +37,10 @@ Accepts and normalizes inputs from diverse external sources (e.g., agent framewo
 flowchart LR
     UI[Unified Interface]
 
-    PL1[Flow Compiler]
-    PL2[SaaS SDK Wrapper / API Adapter]
-    PL3[UI / CLI Bridge]
-    PL4[Prompt Interpreter]
+    PL1[Agent Flow]
+    PL2[SaaS API]
+    PL3[UI / CLI]
+    PL4[Prompt]
 
     PL1 --> UI
     PL2 --> UI
@@ -65,5 +65,5 @@ flowchart LR
     PL_SM[Semantic Parsers, Format Adapters] --> SM
     PL_ORCH[Routing Policies, Task Planner] --> ORCH
     PL_EXE[Model Selector, Compute Strategy] --> EXE
-    PL_IEB[SaaS Connector, Output Renderers] --> IEB
+    PL_IEB[SaaS Connector, Framework Bridge] --> IEB
 ```
