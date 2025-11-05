@@ -1,69 +1,25 @@
 # Welcome to Charm
 
-Charm is an open-source, modular AI operating system designed to be neutral that enables developers to compose, deploy, and scale AI applications across models, tools, frameworks, and platforms — all through a single unified API and plugin-based architecture.
+Charm is an open-source federated middleware designed to stay neutral, enabling your agent definitions to run seamlessly on different runtimes with synchronized states and resumable task flows.
+It empowers developers to compose, deploy, and scale AI applications that integrate models, tools, frameworks, and platforms — all through a single unified API and a plugin-based architecture.
 
-## Core feature modules
+## Getting started
+### Learn more about Charm
+Basic Concepts
+Architecture
+How it work
+Example applications
+### Installation
 
-**Execution Routing**:
-Intelligently selects and adapts the optimal model and compute backend based on defined needs and policies, with built-in support for resource governance.
+## Contributing
+### Issues, Bugs, and Feature Requests
 
-**Multi-Agent Management**:
-Orchestrates multi-agent workflows with full lifecycle control and inter-agent handoff.
+## Contact
+- Support and Questions: [Community](https://discord.gg/gdakynHUEb) / [Email](mailto:team@charmos.io)
+- Join the Charm team: [Chat with the founder](mailto:uc@charmos.io)
 
-**Semantic & Format adaptation**:
-Standardizes diverse inputs into structured semantics & formats.
+## Changelog
+Check our [updates](https://charmos.io/changelog)
 
-**Integration Bridge**:
-Supporting multi-turn and long-horizon agent workflows through persistent, bidirectional communication with external platforms.
-
-## Architecture
-
-```mermaid
-graph LR
-    UI[Unified Interface]
-
-    UI[Unified Interface] --> SM
-
-    subgraph Charm Core
-        SM[Semantic Middleware &<br/>Format Adapter] --> ORCH[Task Lifecycle<br/>Orchestration & Planning]
-        ORCH --> EXE[Execution &<br/>Model Routing]
-        EXE --> IEB[Integration &<br/>Event Bridge]
-end
-```
-Unified Ingestion:
-Accepts and normalizes inputs from diverse external sources (e.g., agent frameworks, iPaaS, protocol-based triggers) through pluggable adapters.
-
-```mermaid
-flowchart LR
-    UI[Unified Interface]
-
-    PL1[Agent Flow]
-    PL2[SaaS API]
-    PL3[UI / CLI]
-    PL4[Prompt]
-
-    PL1 --> UI
-    PL2 --> UI
-    PL3 --> UI
-    PL4 --> UI
-```
-Pluggable Orchestration & Execution:
-All tasks flow through a unified orchestration pipeline, where major subsystems expose plugin interfaces that allow you to inject or swap components (e.g., model routers, workflow planners, or SDK bridges) to compose workflows tailored to custom requirements
-
-```mermaid
-flowchart LR
-    subgraph SYSTEM_INTERNAL [Modular Runtime]
-        SM[Semantic Middleware & Format Adapter]
-        ORCH[Task Lifecycle Orchestration & Planning]
-        EXE[Execution & Model Routing]
-        IEB[Integration & Event Bridge]
-    end
-
-    SM --> ORCH --> EXE --> IEB
-
-    %% Plugin injection points
-    PL_SM[Semantic Parsers, Format Adapters] --> SM
-    PL_ORCH[Routing Policies, Task Planner] --> ORCH
-    PL_EXE[Model Selector, Compute Strategy] --> EXE
-    PL_IEB[SaaS Connector, Framework Bridge] --> IEB
-```
+## License
+Charm is licensed under the [GNU Affero General Public License v3.0](https://github.com/CharmAIOS/CharmOS/blob/main/LICENSE)
