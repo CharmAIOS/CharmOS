@@ -15,7 +15,7 @@ body:
     attributes:
       label: Feature Summary
       description: "Briefly summarize your idea."
-      placeholder: "Add support for LangChain v0.3 adapter"
+      placeholder: "Add support for [...]"
     validations:
       required: true
 
@@ -24,23 +24,23 @@ body:
     attributes:
       label: Related Problem
       description: "Is your feature request related to an existing problem? Please describe."
-      placeholder: "It's hard to connect Charm to other frameworks without manual conversion."
+      placeholder: "It's hard to [...]"
 
   - type: textarea
     id: proposal
     attributes:
       label: Proposed Solution
-      description: "Describe the solution or behavior you would like to see."
-      placeholder: "Implement an adapter layer to auto-convert LangChain output into Charm's semantic format."
+      description: "A clear and concise description of what you want to happen."
+      placeholder: "Implement an adapter to [...]"
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives Considered
-      description: "If you’ve considered other ways to solve this, list them here."
-      placeholder: "Using an external converter tool, but it breaks when updating schema."
+      label: Additional Note
+      description: "Add any other details or notes about the feature request here."
+      placeholder: "Additional information"
 
   - type: checkboxes
     id: checklist
