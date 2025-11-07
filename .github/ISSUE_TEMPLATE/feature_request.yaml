@@ -1,31 +1,53 @@
 name: 💡 Feature Request
-description: Suggest a new idea or improvement for Charm
+description: Suggest a new idea, enhancement, or integration for Charm
 title: "[Feature]: "
 labels: [enhancement]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Feature Request
+        We're excited to hear your ideas!  
+        Please describe what you’d like to see added or improved.
+
   - type: input
     id: summary
     attributes:
       label: Feature Summary
-      placeholder: "Briefly describe your idea"
+      description: "Briefly summarize your idea."
+      placeholder: "Add support for LangChain v0.3 adapter"
     validations:
       required: true
 
   - type: textarea
-    id: details
+    id: problem
     attributes:
-      label: Description
-      description: "What problem does this feature solve or what value would it add?"
-      placeholder: "It would be great if Charm could..."
+      label: Related Problem
+      description: "Is your feature request related to an existing problem? Please describe."
+      placeholder: "It's hard to connect Charm to other frameworks without manual conversion."
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: "Describe the solution or behavior you would like to see."
+      placeholder: "Implement an adapter layer to auto-convert LangChain output into Charm's semantic format."
     validations:
       required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: "If you’ve considered other ways to solve this, list them here."
+      placeholder: "Using an external converter tool, but it breaks when updating schema."
 
   - type: checkboxes
     id: checklist
     attributes:
       label: Checklist
       options:
-        - label: I have checked for similar feature requests.
+        - label: I have searched for existing feature requests.
           required: true
         - label: I have read the [Contributing Guidelines](../CONTRIBUTING.md).
           required: true
