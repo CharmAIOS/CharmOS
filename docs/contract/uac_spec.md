@@ -22,4 +22,5 @@
     - Bump the major version
     - Provide an upgrader script to migrate older contracts
 
-Unified Agent Contract v0.1.0: [uac.schema.json](https://github.com/CharmAIOS/Charm/blob/main/docs/contract/uac.schema.json)
+[Unified Agent Contract](https://github.com/CharmAIOS/Charm/blob/main/docs/contract/uac.schema.json) (v0.1.0)
+[Minimal Valid UAC Object Example](https://github.com/CharmAIOS/Charm/blob/main/docs/contract/uac_sample.json)
