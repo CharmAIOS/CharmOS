@@ -1,4 +1,6 @@
-## Charm Middleware
+## Charm Middleware Architecture
+
+### Flow Visualization
 ```mermaid
 flowchart LR
     subgraph FrameworkA["Source Framework"]
@@ -24,21 +26,20 @@ flowchart LR
     C5 --> B1
     B1 --> C5 --> C4 --> A1
 ```
-### Agent Adapter
+### Core Modules
+#### Agent Adapter
 - Definition standardization: Parses agent definitions and transforms them into the Unified Agent Contract (Charm UAC)
-- Capability Mapping: Aligns declared agent capabilities with the target system’s available tools or plugins, mapping them into Charm’s standardized scopes, while supporting graceful degradation
+- Capability Mapping: Aligns the agent’s declared capabilities with the target system’s available tools or plugins, registers them into the runtime, and supports graceful degradation
 
-### Stateful Bridge
+#### Stateful Bridge
 - Outbound: Streams agent outputs to external system
 - Inbound: Subscribes to responses/triggers and reattaches them to the correct task state
 - Lifecycle-Aware: Supports pause/wait/resume, retry/backoff, and reactivation
 
-### Transport 
-Agent Transport
+#### Transport 
 - Handles low-latency, bidirectional communication with external agent systems
-- Support task resumption routing, correlation-aware message delivery, and HTTP/WebSocket connection lifecycle management
+- Support task resumption routing, correlation-aware message delivery
 
-### Edge Governance
+#### Edge Governance
 - Enforces quotas, rate limits, and concurrency control
 - Handles stateless retry/backoff and automated recovery
-- Provides a secure outbound API wrapper for agent calls
