@@ -57,18 +57,19 @@ You can read the [ contributing guidelines](https://opensource.guide/) before yo
 
 1. Report bugs or suggest features under Issues
 2. Check existing issues
-3. Use clear titles and include:
-  - Steps to reproduce
-  - Expected vs. actual behavior
-  - Logs or screenshots (if relevant)
-## Current Focus Areas
-We’re currently prioritizing:
-- contracts
-- adapters
-- transport
-- Mock fixtures and validation scripts
+3. Follow the issue templates
 
-If you want to help in one of these areas, comment under the relevant GitHub Issue or tag @team in Discussions.
+## Current Focus Areas
+## 🧭 Current Development Focus
+We’re currently prioritizing **Agent Portability** — building the core pipeline that makes agents portable across frameworks.
+
+Please familiarize yourself with:
+- [**Pipeline Overview**](https://github.com/CharmAIOS/Charm/blob/main/docs/pipeline.md)
+- [**Fixtures**](https://github.com/CharmAIOS/Charm/blob/main/docs/fixtures.md): static sample agents used for validation and testing.
+
+Our current reference route is **CrewAI → LangGraph**, which serves as the baseline implementation for agent portability.
+
+Contributions related to this route are highly welcome. If you want to help in one of these areas, comment under the relevant GitHub Issue or @ucmind in Discussions.
 
 ## Community Guidelines
 We follow the [contributing guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines) to ensure respectful and collaborative contributions.
