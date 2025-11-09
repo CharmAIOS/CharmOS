@@ -17,12 +17,12 @@ flowchart LR
     end
 
     %% Flow
-    A1 -->|Parse| C1
+    A1 --> C1
     C1 --> C2
     C2 --> C4
     C4 --> C5
     C5 --> B1
-    B1 -->|Result| C5 --> C4 --> A1
+    B1 --> C5 --> C4 --> A1
 ```
 ### Agent Adapter
 - Definition standardization: Parses agent definitions and transforms them into the Unified Agent Contract (Charm UAC)
