@@ -65,7 +65,7 @@ We’re currently prioritizing **Agent Portability** — building the core pipel
 
 Please familiarize yourself with:
 - [**Pipeline Overview**](https://github.com/CharmAIOS/Charm/blob/main/docs/pipeline.md)
-- [**Fixtures**](https://github.com/CharmAIOS/Charm/blob/main/docs/fixtures.md): static sample agents used for validation and testing.
+- [**Fixtures**](https://github.com/CharmAIOS/Charm/tree/main/docs/fixtures): static sample agents used for validation and testing.
 
 Our current reference route is **CrewAI → LangGraph**, which serves as the baseline implementation for agent portability.
 
