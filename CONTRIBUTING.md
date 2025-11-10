@@ -60,7 +60,7 @@ You can read the [ contributing guidelines](https://opensource.guide/) before yo
 3. Follow the issue templates
 
 ## Current Focus Areas
-## 🧭 Current Development Focus
+## Current Development Focus
 We’re currently prioritizing **Agent Portability** — building the core pipeline that makes agents portable across frameworks.
 
 Please familiarize yourself with:
