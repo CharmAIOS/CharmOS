@@ -45,29 +45,27 @@ See (TBD) for detailed setup instructions.
 - Why it’s needed
 - How to test it
 
-### Development Workflow (TBD)
-1.	Check /contracts/README.md to confirm the current frozen schemas.
-2.	Choose a lane and open an Issue using the corresponding template.
-3.	Use /fixtures as the golden sample to write your tests, then run npm run test:<lane>.
+### Development Workflow
+
+1.	Check [contracts](https://github.com/CharmAIOS/Charm/tree/main/docs/contracts/uac) to confirm the current frozen schemas.
+2.	Choose a [lane](https://github.com/CharmAIOS/Charm/blob/main/docs/pipeline.md) and open an Issue using the corresponding template.
+3.	Use [fixtures](https://github.com/CharmAIOS/Charm/tree/main/docs/fixtures) as the golden sample to write your tests, then run npm run test:<lane>.
 4.	Submit a PR — the CI will only verify your lane’s tests and ensure contracts remain intact.
-5.	Once a week, during Integration Day, we run test:e2e and merge to main.
+5.	Before major merges, we run test:e2e across the full pipeline.
 
 ## Issues, Bugs, and Feature Requests
-You can read the [ contributing guidelines](https://opensource.guide/) before you begin
+You can read the [contributing guidelines](https://opensource.guide/) before you begin
 
 1. Report bugs or suggest features under Issues
 2. Check existing issues
 3. Follow the issue templates
 
-## Current Focus Areas
 ## Current Development Focus
 We’re currently prioritizing **Agent Portability** — building the core pipeline that makes agents portable across frameworks.
 
 Please familiarize yourself with:
 - [**Pipeline Overview**](https://github.com/CharmAIOS/Charm/blob/main/docs/pipeline.md)
 - [**Fixtures**](https://github.com/CharmAIOS/Charm/tree/main/docs/fixtures): static sample agents used for validation and testing.
-
-Our current reference route is **CrewAI → LangGraph**, which serves as the baseline implementation for agent portability.
 
 Contributions related to this route are highly welcome. If you want to help in one of these areas, comment under the relevant GitHub Issue or @ucmind in Discussions.
 
