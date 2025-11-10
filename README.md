@@ -6,10 +6,9 @@ It empowers developers to compose, deploy, and scale AI applications that integr
 
 ## Getting started
 ### Learn more about Charm
-- [Basic Concepts](https://github.com/CharmAIOS/Charm/blob/main/docs/core_concepts.md)
+- [Basic Concepts](https://github.com/CharmAIOS/Charm/blob/main/docs/core-concepts.md)
 - [Architecture](https://github.com/CharmAIOS/Charm/blob/main/docs/ARCHITECTURE.md)
-- [How it work](https://github.com/CharmAIOS/Charm/blob/main/Charm%20v1/HOW_IT_WORKS.md)
-- [Example applications](https://github.com/CharmAIOS/Charm/blob/main/Charm%20v1/example.md)
+- [Example applications](https://github.com/CharmAIOS/Charm/blob/main/docs/use-cases/crewai-langgraph-research-agent.md)
 ### Installation
 
 ## Contributing
