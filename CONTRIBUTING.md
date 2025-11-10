@@ -48,7 +48,8 @@ See (TBD) for detailed setup instructions.
 ### Development Workflow
 
 1.	Check [contracts](https://github.com/CharmAIOS/Charm/tree/main/docs/contracts/uac) to confirm the current frozen schemas.
-2.	Choose a [lane](https://github.com/CharmAIOS/Charm/blob/main/docs/pipeline.md) and open an Issue using the corresponding template.
+2.	Choose a [route](https://github.com/CharmAIOS/Charm/blob/main/docs/pipeline.md) and open an Issue using the corresponding template (For now, Charm focuses on a single reference route:
+**CrewAI → LangGraph**).
 3.	Use [fixtures](https://github.com/CharmAIOS/Charm/tree/main/docs/fixtures) as the golden sample to write your tests, then run npm run test:<lane>.
 4.	Submit a PR — the CI will only verify your lane’s tests and ensure contracts remain intact.
 5.	Before major merges, we run test:e2e across the full pipeline.
