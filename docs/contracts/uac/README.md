@@ -2,9 +2,15 @@
 
 ### Objectives
 
-- Semantic Neutral Layer: Describe an agent’s “persona, goals, capabilities, constraints, and workflow” in a framework-agnostic manner
+- Semantic Neutral Layer: Describe an agent in a framework-agnostic manner
 - Portability and Mapping: Enable any source definition to be converted into a Unified Agent Contract (UAC), which can then be rendered into any target framework
 - Minimal Sufficient Set: Provide a minimal yet complete set of fields covering persona, goals, capabilities, constraints, tools, workflow (nodes/edges), policies, etc.
+
+Charm treats the following as part of an agent’s portable contract:
+- Definition: persona, goals, capabilities, workflow, policies
+- Portable configuration: model preferences, interaction style, tools, and mapping hints
+
+Execution environment details (credentials, endpoints, infra-level settings) are **not** part of the UAC and are bound at runtime via Charm’s bridge and target loaders.
 
 ### Design Principles
 
