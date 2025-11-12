@@ -2,7 +2,7 @@ Here are the basic concepts about Charm middleware version. Help you know more a
 
 ### Agent Portability
 Enables agents to be portable between ecosystems by:
-- Parsing agent definitions from various sources
+- Parsing agent definitions and configuration from various sources
 - Converting them into a neutral, standardized format
 - Mapping and registering them within target frameworks
 
