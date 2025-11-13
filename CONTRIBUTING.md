@@ -31,7 +31,7 @@ See (TBD) for detailed setup instructions.
 ## How to Contribute
 1.	Create a new branch from main
     ```bash
-    git checkout -b feature/<your-feature-name>
+    git checkout -b feat/<your-feature-name>
 
 2.	Make your changes and commit
     ```bash
