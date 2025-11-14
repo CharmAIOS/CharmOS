@@ -2,10 +2,6 @@
 
 Thanks for your interest in Charm.
 
-Our mission is to abstract away today’s fragmented AI development and execution environments — enabling agents to be built and run together through a unified interface.
-
-By doing so, Charm aims to help AI applications evolve into a truly connected ecosystem and become a natural part of human society.
-
 We’re currently building our v1 release, featuring a federated runtime and middleware layer.
 
 See the [docs](https://github.com/CharmAIOS/Charm/tree/main/docs) to learn more about Charm.
