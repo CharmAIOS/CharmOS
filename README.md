@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="docs/assets/banner.png" alt="Charm Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/CharmAIOS/Charm/tree/main/docs">Documentation</a> ·
+  <a href="https://github.com/CharmAIOS/Charm/tree/main/docs/use-cases">Examples</a> ·
+  <a href="https://github.com/CharmAIOS/Charm/blob/main/CONTRIBUTING.md">Contributing</a> ·
+  <a href="https://discord.gg/gdakynHUEb">Discord</a>
+</p>
+
 # Charm: Open-Source Federated Middleware for AI Agents
 Charm is an open-source federated middleware that enables agents to migrate or extend into different Agentic Development Environments while maintaining synchronized states and resumable task flows.
 
