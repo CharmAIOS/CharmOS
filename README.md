@@ -1,14 +1,13 @@
-# Welcome to Charm
+# Charm: Open-Source Federated Middleware for AI Agents
+Charm is an open-source federated middleware that enables agents to migrate or extend into different Agentic Development Environments while maintaining synchronized states and resumable task flows.
 
-Charm is an open-source federated middleware designed to stay neutral, enabling your agent definitions to run seamlessly on different runtimes with synchronized states and resumable task flows.
-
-It empowers developers to compose, deploy, and scale AI applications that integrate models, tools, frameworks, and platforms — all through a single unified API and a plugin-based architecture.
+It empowers developers to compose, deploy, and scale agentic applications across diverse tools, frameworks, and platforms — all through a single unified API and a plugin-based architecture.
 
 ## Getting started
 ### Learn more about Charm
-- [Basic Concepts](https://github.com/CharmAIOS/Charm/blob/main/docs/core-concepts.md)
+- [Basic Concepts](https://github.com/CharmAIOS/Charm/tree/main/docs/concepts)
 - [Architecture](https://github.com/CharmAIOS/Charm/blob/main/docs/ARCHITECTURE.md)
-- [Example applications](https://github.com/CharmAIOS/Charm/blob/main/docs/use-cases/crewai-langgraph-research-agent.md)
+- [Example applications](https://github.com/CharmAIOS/Charm/tree/main/docs/use-cases)
 ### Installation
 
 ## Contributing
