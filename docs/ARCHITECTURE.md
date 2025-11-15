@@ -28,18 +28,13 @@ flowchart LR
 ```
 ### Core Modules
 #### Agent Adapter
-- Definition standardization: Parses agent definitions and transforms them into the Unified Agent Contract (Charm UAC)
-- Capability Mapping: Aligns the agent’s declared capabilities with the target system’s available tools or plugins, registers them into the runtime, and supports graceful degradation
+The Agent Adapter handles the entire portability pipeline: it parses source-framework agent definitions, normalizes them into a Unified Agent Contract (uac), resolves all semantic fields (role, capabilities, workflow), and compiles the result into a runnable profile for the target framework. It ensures that one agent definition can be executed across different ecosystems without rewriting logic.
 
 #### Stateful Bridge
-- Outbound: Streams agent outputs to external system
-- Inbound: Subscribes to responses/triggers and reattaches them to the correct task state
-- Lifecycle-Aware: Supports pause/wait/resume, retry/backoff, and reactivation
+The Stateful Bridge connects execution between frameworks. It converts runtime steps into event streams, sends them to the target framework, and reattaches incoming results to the correct task or node. Allowing a single agent flow to span multiple frameworks while remaining logically continuous.
 
 #### Transport 
-- Handles low-latency, bidirectional communication with external agent systems
-- Support task resumption routing, correlation-aware message delivery
+Transport provides the bidirectional communication channel. It delivers events between Charm and external frameworks with low latency, handles encoding, routing, ordering, and correlation IDs, and ensures every message reaches the correct session, task, or node.
 
 #### Edge Governance
-- Enforces quotas, rate limits, and concurrency control
-- Handles stateless retry/backoff and automated recovery
+Edge Governance enforces resource and execution policies at the system boundary. It applies rate limits, quotas, concurrency rules, and retry/backoff strategies to all cross-framework events, ensuring stable execution and safe fallback behavior during portability or bridge operations.
